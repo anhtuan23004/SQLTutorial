@@ -1,0 +1,17 @@
+-- LAY RA TEN QG KHAC NHAU 
+SELECT DISTINCT [Country]
+FROM dbo.Customers;
+
+-- LAY RA TEN MA SO BUU DIEN KHAC NHAU
+SELECT DISTINCT [PostalCode]
+FROM [dbo].[Suppliers];
+
+-- LAY RA DU LIEU VE HO NHAN VIEN 
+-- CACH GOI DANH HIEU LICH SU CUA NHAN VIEN
+SELECT DISTINCT [LastName], [TitleOfCourtesy]
+FROM [dbo].[Employees];
+
+-- LAY RA MA DON VI VAN CHUYEN KHAC NHAU
+
+SELECT DISTINCT [ShipVia]
+FROM [dbo].[Orders];
