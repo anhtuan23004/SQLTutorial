@@ -1,0 +1,26 @@
+use classicmodels;
+-- Bai 1
+-- select c.city, count(c.customerNumber) as TotalOfCustomers
+-- from customers as c
+-- group by city
+-- Bai 2
+-- select count(orderNumber) as TotalOrders
+-- from orders
+-- where month(orderDate) = 3 and year(orderDate) = 2005
+-- Bai 3
+-- select month(orderDate) as Month, count(orderNumber) as TotalOrders
+-- from orders
+-- where year(orderDate) =  2005
+-- group by month(orderDate) 
+-- Bai 4
+-- select o.orderNumber
+-- from orderdetails as o
+-- group by o.orderNumber
+-- having sum(o.quantityOrdered * priceEach)
+-- order by sum(o.quantityOrdered * priceEach) desc
+-- limit 10
+-- Bai 5
+-- select productLine, sum(quantityInStock) as Total
+-- from products
+-- group by productLine
+

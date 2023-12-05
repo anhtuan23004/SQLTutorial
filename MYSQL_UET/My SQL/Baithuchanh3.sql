@@ -1,0 +1,18 @@
+-- Bai 1
+-- select *
+-- from employees
+-- where reportsTo is NULL
+-- Bai 2
+-- SELECT DISTINCT customerNumber
+-- From payments
+-- ORDER BY customerNumber;
+-- Bai 3
+-- select * from orders 
+-- where shippedDate = '2003-01-18'
+-- Bai 4
+-- select * from orders
+-- where status = 'Shipped' and month(orderDate) = 4 and year(orderDate) = 2003
+-- Bai 5
+-- select*
+-- from products
+-- where productLine = 'Classic Cars'
